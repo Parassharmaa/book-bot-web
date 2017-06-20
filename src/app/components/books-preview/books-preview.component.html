@@ -1,0 +1,14 @@
+<md-card>
+<md-list>
+  <md-list-item>
+    <md-icon  md-list-avatar md-list-icon class="icon" color="primary">book</md-icon>
+    	<h3 md-line>{{ title |  slice:0:50 }}</h3>
+      <h4 md-line><b>Author: </b>{{author}} </h4>
+      <p md-line color="primary" selected="true"><b>FileType: </b> {{ext | uppercase }}</p>
+      <md-chip-list>
+      <button color="primary" md-raised-button selected="true" (click)="openDownloadDialog(file, title)"><md-icon>remove_red_eye</md-icon></button>
+      </md-chip-list>
+  </md-list-item>
+  <md-divider></md-divider>
+</md-list>
+</md-card>

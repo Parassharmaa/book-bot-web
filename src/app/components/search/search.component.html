@@ -1,0 +1,11 @@
+<md-card>
+	<table colspan=3>
+		<tr>	
+			<td>
+				<input placeholder="title, author..." (keyup)="search.emit($event.target.value)">
+			</td>
+			<td><md-spinner class='spinn' *ngIf="searching"></md-spinner></td>
+			<td><md-icon>search</md-icon></td>
+		</tr>
+	</table>
+</md-card>
