@@ -11,13 +11,17 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { SearchComponent } from './components/search/search.component';
 import { BooksPreviewComponent } from './components/books-preview/books-preview.component';
 
-import { searchReducer } from "./_reducers/search.reducer";
+import { searchUIReducer } from "./_reducers/searchUI.reducer";
 
 import { SearchService } from './service/search.service';
 import { BookListComponent } from './components/book-list/book-list.component';
 
 import { HttpModule } from '@angular/http';
 import { DownloadDialogComponent } from './components/download-dialog/download-dialog.component';
+
+import { EffectsModule } from '@ngrx/effects';
+
+
 
 @NgModule({
   declarations: [
@@ -37,7 +41,7 @@ import { DownloadDialogComponent } from './components/download-dialog/download-d
     BrowserAnimationsModule,
     HttpModule,
     StoreModule.provideStore({ 
-      searchReducer
+      searchUIReducer
     }),
     StoreDevtoolsModule.instrumentOnlyWithExtension()
   ],

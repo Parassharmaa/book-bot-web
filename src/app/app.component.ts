@@ -7,8 +7,8 @@ import { Observable } from 'rxjs/Observable';
 import { SearchService } from './service/search.service'
 import { Book } from './models/book';
 
-import { LOADING, COMPLETE }  from './_actions/search.actions';
-import { searchReducer } from './_reducers/search.reducer'
+import { LOADING, COMPLETE }  from './_actions/searchUI.actions';
+import { searchUIReducer } from './_reducers/searchUI.reducer'
 
 
 @Component({ 
@@ -25,16 +25,19 @@ export class AppComponent {
 
 
   constructor(private store: Store<any>, private searchbook : SearchService) {
-    this.loading$ = this.store.select('searchReducer');
+    
+    this.loading$ = this.store.select('searchUIReducer');
 
     console.log(this.loading$);
 
   }
 
   search(query: string) : any {
-    this.loading();
-    this.books$ =  this.searchbook.searchBooks(query);
-    this.books$.subscribe(() => {this.complete()})
+      if (query!="") {
+        this.loading();
+        this.books$ =  this.searchbook.searchBooks(query).debounceTime(200);
+        this.books$.subscribe(() => {this.complete(); console.log("loader off")});
+      }
   }
 
 
