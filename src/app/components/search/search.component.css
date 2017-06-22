@@ -1,38 +1,37 @@
 md-card {
   max-width: 600px;
-  width:auto;
+  width: auto;
   margin: 2em auto;
-  padding:10px;
+  padding: 10px;
   text-align: center;
 }
 
 input {
-	width: 100%;
-	font-size: 18px;
-	height:100%;
-	border: 0;
-	outline: none;
+  width: 100%;
+  font-size: 18px;
+  height: 100%;
+  border: 0;
+  outline: none;
 }
 
-input: focus {
-	outline: none;
-	border:0;
+input:focus {
+  outline: none;
+  border: 0;
 }
-
 
 table {
   margin: auto !important;
-  padding:0;
+  padding: 0;
   width: 100%;
 }
 
 .spinn {
   text-align: right;
-  height:30px;
+  height: 30px;
   width: 28px;
 }
 
 .show-error {
-  color:red;
+  color: red;
   text-align: center;
 }

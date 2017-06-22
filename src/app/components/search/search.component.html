@@ -1,15 +1,19 @@
 <md-card>
-	<table colspan=3>
-		<tr>	
-			<td>
-				<input placeholder="Book title, author, topic, genre..." autofocus [formControl]="search">
-			</td>
-			<td><md-spinner class='spinn' *ngIf="loading$ | async"></md-spinner></td>
-			<td><md-icon>search</md-icon></td>
-		</tr>
-	</table>
+  <table colspan=3>
+    <tr>
+      <td>
+        <input placeholder="Book title, author, topic, genre..." autofocus [formControl]="search">
+      </td>
+      <td>
+        <md-spinner class='spinn' *ngIf="loading$ | async"></md-spinner>
+      </td>
+      <td>
+        <md-icon>search</md-icon>
+      </td>
+    </tr>
+  </table>
 </md-card>
 
 <h4 class="show-error" *ngIf="(books$)?.length==0">Sorry, No results found!</h4>
 
-<app-book-list [books]="books$"></app-book-list>
+<app-book-list [books]="books$ | async"></app-book-list>

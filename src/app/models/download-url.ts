@@ -1,3 +1,3 @@
 export interface DownloadUrl {
-	url : string;
+  url: string;
 }

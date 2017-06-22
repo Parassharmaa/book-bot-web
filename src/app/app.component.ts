@@ -6,12 +6,12 @@ import { SearchService } from './service/search.service'
 
 import { Book } from './models/book';
 
-@Component({ 
+@Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 
 export class AppComponent {
-  constructor() {}
+  constructor() { }
 }

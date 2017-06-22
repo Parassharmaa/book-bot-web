@@ -1,30 +1,28 @@
 <md-toolbar color="primary">
-<div routerLink="" class="point">
-<span><md-icon class="icon">book</md-icon></span>
-<span>{{title}}</span>
-</div>
-<span class="spacer"></span>
-<button md-icon-button [mdMenuTriggerFor]="menu">
+  <div routerLink="" class="point">
+    <span><md-icon class="icon">book</md-icon></span>
+    <span>{{title}}</span>
+  </div>
+  <span class="spacer"></span>
+  <button md-icon-button [mdMenuTriggerFor]="menu">
 		<md-icon>more_vert</md-icon>
 </button>
-<md-menu #menu="mdMenu">
-  <a href="https://m.me/bookbotai">
+  <md-menu #menu="mdMenu">
+    <a href="https://m.me/bookbotai">
   <button md-menu-item>
     <md-icon>message</md-icon>
     <span>Use Bot</span>
   </button>
   </a>
-  <button md-menu-item routerLink="/about" routerLinkActive="active">
+    <button md-menu-item routerLink="/about" routerLinkActive="active">
     <md-icon>info</md-icon>
     <span>About</span>
   </button>
-  <a href="https://book-bot-ai.herokuapp.com/privacy-policy">
+    <a href="https://book-bot-ai.herokuapp.com/privacy-policy">
   <button md-menu-item>
     <md-icon>https</md-icon>
     <span>Privacy Policy</span>
   </button>
   </a>
-</md-menu>
+  </md-menu>
 </md-toolbar>
-
-

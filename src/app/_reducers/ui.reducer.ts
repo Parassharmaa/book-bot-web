@@ -1,5 +1,5 @@
 import { Action } from '@ngrx/store';
-import { LOADING, COMPLETE } from "../_actions/ui.actions";
+import { LOADING, COMPLETE } from '../_actions/ui.actions';
 
 export function searchUIReducer(state: boolean = false , action: Action) {
   switch (action.type) {

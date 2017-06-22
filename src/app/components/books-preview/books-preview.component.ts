@@ -12,11 +12,11 @@ import { DownloadDialogComponent } from '../download-dialog/download-dialog.comp
 
 export class BooksPreviewComponent {
 
-	@Input() book: Book;
+  @Input() book: Book;
 
 
-  constructor(public dialog: MdDialog) {}
-  
+  constructor(public dialog: MdDialog) { }
+
   get title() {
     return this.book.title;
   }
@@ -30,11 +30,11 @@ export class BooksPreviewComponent {
   }
 
   get ext() {
-  	return this.book.ext
+    return this.book.ext
   }
 
   get author() {
-  	return this.book.author;
+    return this.book.author;
   }
 
   get image(): string | boolean {
@@ -46,9 +46,9 @@ export class BooksPreviewComponent {
   }
 
   openDownloadDialog(url: string, title: string) {
-    let dialogRef = this.dialog.open(DownloadDialogComponent, {
-            width: '70%'
-        });
+    const dialogRef = this.dialog.open(DownloadDialogComponent, {
+      width: '70%'
+    });
     dialogRef.componentInstance.title = title;
     dialogRef.componentInstance.url = url;
     dialogRef.componentInstance.make_url();
