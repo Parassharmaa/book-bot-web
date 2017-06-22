@@ -27,6 +27,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './components/about/about.component';
 
 
+import { TruncatePipe } from './pipes/truncate.pipe';
+
 const appRoutes: Routes = [
   { path: '', component: SearchComponent },
   { path: 'about', component: AboutComponent },
@@ -46,6 +48,7 @@ const appRoutes: Routes = [
     BookListComponent,
     DownloadDialogComponent,
     AboutComponent,
+    TruncatePipe
   ],
   entryComponents: [
     DownloadDialogComponent

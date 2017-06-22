@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Book } from '../../models/book';
-import {MdDialog, MdDialogRef} from '@angular/material';
+import { MdDialog, MdDialogRef } from '@angular/material';
 import { DownloadDialogComponent } from '../download-dialog/download-dialog.component';
 
 
