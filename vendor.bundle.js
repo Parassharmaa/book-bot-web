@@ -17617,7 +17617,7 @@ function supportsWebAnimations() {
 /* unused harmony export CurrencyPipe */
 /* unused harmony export DecimalPipe */
 /* unused harmony export PercentPipe */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return SlicePipe; });
+/* unused harmony export SlicePipe */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return UpperCasePipe; });
 /* unused harmony export TitleCasePipe */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return PLATFORM_BROWSER_ID; });
