@@ -13,7 +13,7 @@ export class SearchService {
 	constructor(private http: Http) {}
 
 	searchBooks(queryTitle: string): Observable<Book[]> {
-		return this.http.get(`${this.API_PATH}search/${queryTitle}`)
+		return this.http.get(`${this.API_PATH}search?q=${queryTitle}`)
 			.map(res => res.json().books || []);
 	}
 

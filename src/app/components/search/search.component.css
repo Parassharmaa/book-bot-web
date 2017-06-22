@@ -31,3 +31,8 @@ table {
   height:30px;
   width: 28px;
 }
+
+.show-error {
+  color:red;
+  text-align: center;
+}

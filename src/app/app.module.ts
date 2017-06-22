@@ -11,7 +11,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { SearchComponent } from './components/search/search.component';
 import { BooksPreviewComponent } from './components/books-preview/books-preview.component';
 
-import { searchUIReducer } from "./_reducers/searchUI.reducer";
+import { searchUIReducer} from "./_reducers/ui.reducer";
 
 import { SearchService } from './service/search.service';
 import { BookListComponent } from './components/book-list/book-list.component';
@@ -21,6 +21,20 @@ import { DownloadDialogComponent } from './components/download-dialog/download-d
 
 import { EffectsModule } from '@ngrx/effects';
 
+import {ReactiveFormsModule,  FormsModule } from '@angular/forms';
+
+import { RouterModule, Routes } from '@angular/router';
+import { AboutComponent } from './components/about/about.component';
+
+
+const appRoutes: Routes = [
+  { path: '', component: SearchComponent },
+  { path: 'about', component: AboutComponent },
+  { path: '**',
+    redirectTo: '',
+  },
+  // { path: '**', component: PageNotFoundComponent }
+];
 
 
 @NgModule({
@@ -31,6 +45,7 @@ import { EffectsModule } from '@ngrx/effects';
     BooksPreviewComponent,
     BookListComponent,
     DownloadDialogComponent,
+    AboutComponent,
   ],
   entryComponents: [
     DownloadDialogComponent
@@ -40,6 +55,9 @@ import { EffectsModule } from '@ngrx/effects';
     MaterialModule,
     BrowserAnimationsModule,
     HttpModule,
+    ReactiveFormsModule,
+    FormsModule,
+    RouterModule.forRoot(appRoutes),
     StoreModule.provideStore({ 
       searchUIReducer
     }),

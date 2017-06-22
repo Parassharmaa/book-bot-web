@@ -1,7 +1,2 @@
 <app-navbar></app-navbar>
-
-<app-search  [searching]="loading$ | async" (search)="search($event)"></app-search>
-
-<app-book-list [books]="books$ | async"></app-book-list>
-
-
+<router-outlet></router-outlet>

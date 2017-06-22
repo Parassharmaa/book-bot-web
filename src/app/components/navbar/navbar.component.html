@@ -1,7 +1,8 @@
 <md-toolbar color="primary">
-
+<div routerLink="" class="point">
 <span><md-icon class="icon">book</md-icon></span>
 <span>{{title}}</span>
+</div>
 <span class="spacer"></span>
 <button md-icon-button [mdMenuTriggerFor]="menu">
 		<md-icon>more_vert</md-icon>
@@ -13,7 +14,7 @@
     <span>Use Bot</span>
   </button>
   </a>
-  <button md-menu-item>
+  <button md-menu-item routerLink="/about" routerLinkActive="active">
     <md-icon>info</md-icon>
     <span>About</span>
   </button>

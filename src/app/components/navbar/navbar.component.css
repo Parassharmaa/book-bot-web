@@ -5,3 +5,8 @@ md-toolbar {
 a {
 	text-decoration: none;
 }
+
+.point {
+	cursor: pointer;
+	outline: none;
+}
