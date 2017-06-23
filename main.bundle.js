@@ -963,12 +963,13 @@ function View_SearchComponent_0(_l) {
 }
 function View_SearchComponent_Host_0(_l) {
     return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_31" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_32" /* ɵeld */](0, null, null, 1, 'app-search', [], null, null, null, View_SearchComponent_0, RenderType_SearchComponent)),
-        __WEBPACK_IMPORTED_MODULE_1__angular_core__["_33" /* ɵdid */](245760, null, 0, __WEBPACK_IMPORTED_MODULE_8__app_components_search_search_component__["a" /* SearchComponent */], [__WEBPACK_IMPORTED_MODULE_9__ngrx_store_src_store__["a" /* Store */], __WEBPACK_IMPORTED_MODULE_10__app_service_search_service__["a" /* SearchService */]], null, null)], function (_ck, _v) {
+        __WEBPACK_IMPORTED_MODULE_1__angular_core__["_33" /* ɵdid */](245760, null, 0, __WEBPACK_IMPORTED_MODULE_8__app_components_search_search_component__["a" /* SearchComponent */], [__WEBPACK_IMPORTED_MODULE_9__ngrx_store_src_store__["a" /* Store */], __WEBPACK_IMPORTED_MODULE_10__app_service_search_service__["a" /* SearchService */],
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["R" /* ElementRef */]], null, null)], function (_ck, _v) {
         _ck(_v, 1, 0);
     }, null);
 }
 var SearchComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_35" /* ɵccf */]('app-search', __WEBPACK_IMPORTED_MODULE_8__app_components_search_search_component__["a" /* SearchComponent */], View_SearchComponent_Host_0, {}, {}, []);
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUvcGFyYXovRGVza3RvcC9ib29rLWJvdC13ZWIvc3JjL2FwcC9jb21wb25lbnRzL3NlYXJjaC9zZWFyY2guY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL2hvbWUvcGFyYXovRGVza3RvcC9ib29rLWJvdC13ZWIvc3JjL2FwcC9jb21wb25lbnRzL3NlYXJjaC9zZWFyY2guY29tcG9uZW50LnRzIiwibmc6Ly8vaG9tZS9wYXJhei9EZXNrdG9wL2Jvb2stYm90LXdlYi9zcmMvYXBwL2NvbXBvbmVudHMvc2VhcmNoL3NlYXJjaC5jb21wb25lbnQuaHRtbCIsIm5nOi8vL2hvbWUvcGFyYXovRGVza3RvcC9ib29rLWJvdC13ZWIvc3JjL2FwcC9jb21wb25lbnRzL3NlYXJjaC9zZWFyY2guY29tcG9uZW50LnRzLlNlYXJjaENvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxtZC1jYXJkPlxuICA8dGFibGUgY29sc3Bhbj0zPlxuICAgIDx0cj5cbiAgICAgIDx0ZD5cbiAgICAgICAgPGlucHV0IHBsYWNlaG9sZGVyPVwiQm9vayB0aXRsZSwgYXV0aG9yLCB0b3BpYywgZ2VucmUuLi5cIiBhdXRvZm9jdXMgW2Zvcm1Db250cm9sXT1cInNlYXJjaFwiPlxuICAgICAgPC90ZD5cbiAgICAgIDx0ZD5cbiAgICAgICAgPG1kLXNwaW5uZXIgY2xhc3M9J3NwaW5uJyAqbmdJZj1cImxvYWRpbmckIHwgYXN5bmNcIj48L21kLXNwaW5uZXI+XG4gICAgICA8L3RkPlxuICAgICAgPHRkPlxuICAgICAgICA8bWQtaWNvbj5zZWFyY2g8L21kLWljb24+XG4gICAgICA8L3RkPlxuICAgIDwvdHI+XG4gIDwvdGFibGU+XG48L21kLWNhcmQ+XG5cbjxoNCBjbGFzcz1cInNob3ctZXJyb3JcIiAqbmdJZj1cIihib29rcyQpPy5sZW5ndGg9PTBcIj5Tb3JyeSwgTm8gcmVzdWx0cyBmb3VuZCE8L2g0PlxuXG48YXBwLWJvb2stbGlzdCBbYm9va3NdPVwiYm9va3MkXCI+PC9hcHAtYm9vay1saXN0PlxuIiwiPGFwcC1zZWFyY2g+PC9hcHAtc2VhcmNoPiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O29CQ09RO01BQUE7TUFBQTtpREFBQSxVQUFBOzBCQUFBO01BQUEsc0JBQUE7a0JBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQSxXQUFBLDZCQUFBOzs7O29CQVNSO01BQUE7TUFBbUQ7Ozs7b0JBaEJuRDtNQUFBOzBCQUFBLFVBQUE7b0NBQUE7YUFBQTtNQUFTLDZCQUNQO1VBQUE7TUFBaUIsMkNBQ2Y7VUFBQTtVQUFBO1VBQUE7TUFBSSw2Q0FDRjtVQUFBO1VBQUEsOEJBQUk7TUFDRjtVQUFBO1VBQUE7Y0FBQTtVQUFBO1VBQUE7VUFBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtjQUFBO2NBQUE7WUFBQTtZQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHVDQUFBO1VBQUE7VUFBQSxzQkFBQTtRQUFBO01BQUEsb0NBQUE7VUFBQTtjQUFBLCtCQUFBO1VBQUEsa0NBQUE7VUFBQSw0Q0FBMEY7VUFBQSxlQUN2Riw2Q0FDTDtVQUFBO1VBQUEsNENBQUk7VUFBQSxpQkFDRjtVQUFBLDhDQUFBO1VBQUEsNkVBQTBCO3VCQUFBLHdCQUFzQztNQUM3RCw2Q0FDTDtVQUFBO1VBQUEsOEJBQUk7TUFDRjtVQUFBOzhCQUFBLFVBQUE7VUFBQTthQUFBO1VBQUEsNkJBQVMsK0JBQWdCO1VBQUEsZUFDdEIsMkNBQ0Y7VUFBQSxXQUNDLDJCQUNBO01BRVY7YUFBQTtVQUFBLHdCQUFnRix5Q0FFaEY7aUJBQUE7Y0FBQTthQUFBO1VBQUEsZUFBZ0Q7O0lBZDJCO0lBQW5FLFlBQW1FLFNBQW5FO0lBRzBCO0lBQTFCLFlBQTBCLFNBQTFCO0lBR0E7SUFNZTtJQUF2QixZQUF1QixVQUF2QjtJQUVlO0lBQWYsWUFBZSxVQUFmOztJQWxCQTtJQUFBLFdBQUEsU0FBQTtJQUlRO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUEsWUFBQSxxRUFBQTtJQU1BO0lBQUEsWUFBQSxVQUFBOzs7O29CQ1ZSO01BQUE7YUFBQTtVQUFBO0lBQUE7Ozs7In0=
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL2hvbWUvcGFyYXovRGVza3RvcC9ib29rLWJvdC13ZWIvc3JjL2FwcC9jb21wb25lbnRzL3NlYXJjaC9zZWFyY2guY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL2hvbWUvcGFyYXovRGVza3RvcC9ib29rLWJvdC13ZWIvc3JjL2FwcC9jb21wb25lbnRzL3NlYXJjaC9zZWFyY2guY29tcG9uZW50LnRzIiwibmc6Ly8vaG9tZS9wYXJhei9EZXNrdG9wL2Jvb2stYm90LXdlYi9zcmMvYXBwL2NvbXBvbmVudHMvc2VhcmNoL3NlYXJjaC5jb21wb25lbnQuaHRtbCIsIm5nOi8vL2hvbWUvcGFyYXovRGVza3RvcC9ib29rLWJvdC13ZWIvc3JjL2FwcC9jb21wb25lbnRzL3NlYXJjaC9zZWFyY2guY29tcG9uZW50LnRzLlNlYXJjaENvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxtZC1jYXJkPlxuICA8dGFibGUgY29sc3Bhbj0zPlxuICAgIDx0cj5cbiAgICAgIDx0ZD5cbiAgICAgICAgPGlucHV0IHBsYWNlaG9sZGVyPVwiQm9vayB0aXRsZSwgYXV0aG9yLCB0b3BpYywgZ2VucmUuLi5cIiBhdXRvZm9jdXMgW2Zvcm1Db250cm9sXT1cInNlYXJjaFwiPlxuICAgICAgPC90ZD5cbiAgICAgIDx0ZD5cbiAgICAgICAgPG1kLXNwaW5uZXIgY2xhc3M9J3NwaW5uJyAqbmdJZj1cImxvYWRpbmckIHwgYXN5bmNcIj48L21kLXNwaW5uZXI+XG4gICAgICA8L3RkPlxuICAgICAgPHRkPlxuICAgICAgICA8bWQtaWNvbj5zZWFyY2g8L21kLWljb24+XG4gICAgICA8L3RkPlxuICAgIDwvdHI+XG4gIDwvdGFibGU+XG48L21kLWNhcmQ+XG5cbjxoNCBjbGFzcz1cInNob3ctZXJyb3JcIiAqbmdJZj1cIihib29rcyQpPy5sZW5ndGg9PTBcIj5Tb3JyeSwgTm8gcmVzdWx0cyBmb3VuZCE8L2g0PlxuXG48YXBwLWJvb2stbGlzdCBbYm9va3NdPVwiYm9va3MkXCI+PC9hcHAtYm9vay1saXN0PlxuIiwiPGFwcC1zZWFyY2g+PC9hcHAtc2VhcmNoPiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O29CQ09RO01BQUE7TUFBQTtpREFBQSxVQUFBOzBCQUFBO01BQUEsc0JBQUE7a0JBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQSxXQUFBLDZCQUFBOzs7O29CQVNSO01BQUE7TUFBbUQ7Ozs7b0JBaEJuRDtNQUFBOzBCQUFBLFVBQUE7b0NBQUE7YUFBQTtNQUFTLDZCQUNQO1VBQUE7TUFBaUIsMkNBQ2Y7VUFBQTtVQUFBO1VBQUE7TUFBSSw2Q0FDRjtVQUFBO1VBQUEsOEJBQUk7TUFDRjtVQUFBO1VBQUE7Y0FBQTtVQUFBO1VBQUE7VUFBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtjQUFBO2NBQUE7WUFBQTtZQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHVDQUFBO1VBQUE7VUFBQSxzQkFBQTtRQUFBO01BQUEsb0NBQUE7VUFBQTtjQUFBLCtCQUFBO1VBQUEsa0NBQUE7VUFBQSw0Q0FBMEY7VUFBQSxlQUN2Riw2Q0FDTDtVQUFBO1VBQUEsNENBQUk7VUFBQSxpQkFDRjtVQUFBLDhDQUFBO1VBQUEsNkVBQTBCO3VCQUFBLHdCQUFzQztNQUM3RCw2Q0FDTDtVQUFBO1VBQUEsOEJBQUk7TUFDRjtVQUFBOzhCQUFBLFVBQUE7VUFBQTthQUFBO1VBQUEsNkJBQVMsK0JBQWdCO1VBQUEsZUFDdEIsMkNBQ0Y7VUFBQSxXQUNDLDJCQUNBO01BRVY7YUFBQTtVQUFBLHdCQUFnRix5Q0FFaEY7aUJBQUE7Y0FBQTthQUFBO1VBQUEsZUFBZ0Q7O0lBZDJCO0lBQW5FLFlBQW1FLFNBQW5FO0lBRzBCO0lBQTFCLFlBQTBCLFNBQTFCO0lBR0E7SUFNZTtJQUF2QixZQUF1QixVQUF2QjtJQUVlO0lBQWYsWUFBZSxVQUFmOztJQWxCQTtJQUFBLFdBQUEsU0FBQTtJQUlRO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUEsWUFBQSxxRUFBQTtJQU1BO0lBQUEsWUFBQSxVQUFBOzs7O29CQ1ZSO01BQUE7YUFBQTt1QkFBQTtJQUFBOzs7OyJ9
 //# sourceMappingURL=search.component.ngfactory.js.map
 
 /***/ }),
@@ -1150,9 +1151,22 @@ var BooksPreviewComponent = (function () {
         var dialogRef = this.dialog.open(__WEBPACK_IMPORTED_MODULE_1__download_dialog_download_dialog_component__["a" /* DownloadDialogComponent */], {
             width: '70%'
         });
-        dialogRef.componentInstance.title = title;
-        dialogRef.componentInstance.url = url;
-        dialogRef.componentInstance.make_url();
+        var ua = window.navigator.userAgent.split('/');
+        var lg = false;
+        ua.forEach(function (e) {
+            if (e.split(' ').indexOf('Chrome') > 1) {
+                lg = true;
+            }
+        });
+        if (lg) {
+            dialogRef.componentInstance.title = title;
+            dialogRef.componentInstance.url = url;
+            dialogRef.componentInstance.make_url(false);
+        }
+        else {
+            dialogRef.componentInstance.title = "Download not supported! Use Chrome!";
+            dialogRef.componentInstance.make_url(true);
+        }
     };
     BooksPreviewComponent.ctorParameters = function () { return [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_material__["t" /* MdDialog */] }]; };
     return BooksPreviewComponent;
@@ -1180,15 +1194,19 @@ var DownloadDialogComponent = (function () {
     DownloadDialogComponent.prototype.get_hash = function (s) {
         return s.split('=')[1];
     };
-    DownloadDialogComponent.prototype.make_url = function () {
+    DownloadDialogComponent.prototype.make_url = function (bw) {
         var _this = this;
-        this.download_status = 'Wait..';
-        var hash = this.get_hash(this.url);
-        console.log(hash);
-        this.getkey.retrieveKey(hash).subscribe(function (v) {
-            _this.key = v.url;
-            _this.download_status = 'Download';
-        });
+        if (!bw) {
+            this.download_status = 'Wait..';
+            var hash = this.get_hash(this.url);
+            this.getkey.retrieveKey(hash).subscribe(function (v) {
+                _this.key = v.url;
+                _this.download_status = 'Download';
+            });
+        }
+        else {
+            this.download_status = 'CORS Error';
+        }
     };
     DownloadDialogComponent.ctorParameters = function () { return [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_material__["_90" /* MdDialogRef */] }, { type: __WEBPACK_IMPORTED_MODULE_1__service_search_service__["a" /* SearchService */] }]; };
     return DownloadDialogComponent;
@@ -1221,20 +1239,21 @@ var NavbarComponent = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_store__ = __webpack_require__("../../../../@ngrx/store/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__ = __webpack_require__("../../../../rxjs/Observable.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__service_search_service__ = __webpack_require__("../../../../../src/app/service/search.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__actions_ui_actions__ = __webpack_require__("../../../../../src/app/_actions/ui.actions.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_debounceTime__ = __webpack_require__("../../../../rxjs/add/operator/debounceTime.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_debounceTime___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_debounceTime__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_map__ = __webpack_require__("../../../../rxjs/add/operator/map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_distinctUntilChanged__ = __webpack_require__("../../../../rxjs/add/operator/distinctUntilChanged.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_distinctUntilChanged___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_distinctUntilChanged__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_switchMap__ = __webpack_require__("../../../../rxjs/add/operator/switchMap.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_switchMap__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngrx_store__ = __webpack_require__("../../../../@ngrx/store/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__("../../../../rxjs/Observable.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__service_search_service__ = __webpack_require__("../../../../../src/app/service/search.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__actions_ui_actions__ = __webpack_require__("../../../../../src/app/_actions/ui.actions.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_debounceTime__ = __webpack_require__("../../../../rxjs/add/operator/debounceTime.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_debounceTime___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_debounceTime__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__("../../../../rxjs/add/operator/map.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_distinctUntilChanged__ = __webpack_require__("../../../../rxjs/add/operator/distinctUntilChanged.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_distinctUntilChanged___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_add_operator_distinctUntilChanged__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_switchMap__ = __webpack_require__("../../../../rxjs/add/operator/switchMap.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rxjs_add_operator_switchMap__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchComponent; });
 
 
@@ -1245,22 +1264,25 @@ var NavbarComponent = (function () {
 
 
 
+
 var SearchComponent = (function () {
-    function SearchComponent(store, searchbook) {
+    function SearchComponent(store, searchbook, el) {
         this.store = store;
         this.searchbook = searchbook;
+        this.el = el;
         this.loading$ = this.store.select('searchUIReducer');
     }
     SearchComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.search = new __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* FormControl */]();
+        this.search = new __WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* FormControl */]();
         this.sub = this.search.valueChanges
             .debounceTime(400)
             .distinctUntilChanged()
+            .do(function (_) { return console.log(_this.search); })
             .do(function (_) { return _this.loading(true); })
             .switchMap(function (term) {
             if (term.trim().length === 0) {
-                return __WEBPACK_IMPORTED_MODULE_1_rxjs_Observable__["Observable"].of([]);
+                return __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].of([]);
             }
             return _this.searchbook.searchBooks(term);
         })
@@ -1270,19 +1292,19 @@ var SearchComponent = (function () {
     SearchComponent.prototype.loading = function (st) {
         if (st) {
             this.store.dispatch({
-                type: __WEBPACK_IMPORTED_MODULE_4__actions_ui_actions__["a" /* LOADING */]
+                type: __WEBPACK_IMPORTED_MODULE_5__actions_ui_actions__["a" /* LOADING */]
             });
         }
         else {
             this.store.dispatch({
-                type: __WEBPACK_IMPORTED_MODULE_4__actions_ui_actions__["b" /* COMPLETE */]
+                type: __WEBPACK_IMPORTED_MODULE_5__actions_ui_actions__["b" /* COMPLETE */]
             });
         }
     };
     SearchComponent.prototype.ngOnDestroy = function () {
         this.sub.unsubscribe();
     };
-    SearchComponent.ctorParameters = function () { return [{ type: __WEBPACK_IMPORTED_MODULE_0__ngrx_store__["g" /* Store */] }, { type: __WEBPACK_IMPORTED_MODULE_2__service_search_service__["a" /* SearchService */] }]; };
+    SearchComponent.ctorParameters = function () { return [{ type: __WEBPACK_IMPORTED_MODULE_1__ngrx_store__["g" /* Store */] }, { type: __WEBPACK_IMPORTED_MODULE_3__service_search_service__["a" /* SearchService */] }, { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* ElementRef */] }]; };
     return SearchComponent;
 }());
 
